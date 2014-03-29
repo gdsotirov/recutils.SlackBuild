@@ -19,13 +19,13 @@
 #
 # Visit SlackPack at http://sotirov-bg.net/slackpack/
 #
-# $Id: recutils.SlackBuild,v 1.2 2014/03/29 15:58:36 gsotirov Exp $
+# $Id: recutils.SlackBuild,v 1.3 2014/03/29 16:09:36 gsotirov Exp $
 #
 
 . ../../slack-package.conf
 
 NAME=recutils
-VERSION=1.1
+VERSION=1.5
 BUILD=${BUILD:-1}
 
 TMP=${TMP:-/tmp}
