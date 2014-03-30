@@ -1,8 +1,8 @@
 acl >= 2.2.51
 attr >= 2.4.46
-curl >= 7.35.0
+curl >= 7.36.0
 cyrus-sasl >= 2.1.23
-glibc-solibs >= 2.15
+glibc-solibs >= 2.17
 libgcrypt >= 1.5.3
 libgpg-error >= 1.11
 libidn >= 1.25
@@ -11,4 +11,4 @@ openldap-client >= 2.4.31
 openssl >= 1.0.1f | openssl-solibs >= 1.0.1f
 readline >= 5.2
 util-linux >= 2.21.2
-zlib >= 1.2.6
+zlib >= 1.2.8
