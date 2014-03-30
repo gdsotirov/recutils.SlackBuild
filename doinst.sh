@@ -14,9 +14,12 @@ function echo_exit {
 if [ -x /usr/bin/install-info ] ; then
   echo -n "Installing info pages... "
   install-info --info-dir=/usr/info /usr/info/recutils.info.gz 2>/dev/null
-  echo_exit $?
+  echo_exit $? 0
+  install-info --info-dir=/usr/info /usr/info/rec-mode.info.gz 2>/dev/null
+  echo_exit $? 1
   echo_exit $ErrCount "DONE" "FAILURE"
   echo
 else
   echo "WARNING: Info pages cannot be installed!"
 fi
+
