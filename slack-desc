@@ -9,4 +9,4 @@ recutils: integrity (keys, mandatory fields, etc) as well as the ability of
 recutils: records to refer to other records (sort of foreign keys).  Despite
 recutils: its simplicity, recfiles can be used to store medium-sized databases.
 recutils:
-recutils: Packaged by Georgi D. Sotirov <gdsotirov@dir.bg>
+recutils: Packaged by Georgi D. Sotirov <gdsotirov@gmail.com>
